@@ -1,0 +1,5 @@
+<p>You are so successful</p>
+<button class="btn btn-primary" (click)="onToggleDisplay()">Display Details</button>
+<p>Secret password=Mitul</p>
+<p *ngIf="showSecret"> Secret Password = Mitul</p>
+<div *ngFor = "let logItem of log; let i = index">{{logItem}} index:: {{i}}</div>
